@@ -1,6 +1,8 @@
 def position_taken?(board,index)
-    if board[index] == " " || board[index] == "" || board[index] == nil
+    board[index] == " " || board[index] == "" || board[index] == nil
     return false
-    else board[index] == "X" || board[index] == "O"
+    puts "position_not_taken"
+    board[index] == "X" || board[index] == "O"
     return true
+    puts "position_taken"
   end
